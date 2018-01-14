@@ -1,5 +1,6 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1498579397066-22750a3cb424?auto=format&fit=crop&w=1650&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"); 
+    background-image: url("https://images.unsplash.com/photo-1498579397066-22750a3cb424?auto=format&fit=crop&w=1650&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+    background-attachment: fixed;  
 }
 .footer {
     position: absolute;
@@ -18,7 +19,7 @@ body {
       opacity: 0.7;
       line-height: 40px;
       height: 40px;
-  }
+    } 
 
   table
   {
