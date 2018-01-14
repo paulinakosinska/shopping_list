@@ -20,4 +20,8 @@ body {
       height: 40px;
   }
 
-  
+  table
+  {
+      text-align: center; 
+  }
+

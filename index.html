@@ -11,6 +11,8 @@
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <!-- Font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 </head>
 
 <body>
@@ -40,9 +42,9 @@
         <div class="row">
             <div class="col-md-6 offset-md-3 mx-auto">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Type a product name..." aria-label="Type a product name, you want to add to your list.">
+                    <input type="text" class="form-control" id="productName" placeholder="Type a product name..." aria-label="Type a product name, you want to add to your list.">
                     <span class="input-group-btn">
-                        <button class="btn btn-warning" type="button">Add</button>
+                        <button id="addBtn" class="btn btn-warning" type="button">Add</button>
                     </span>
                 </div>
                 <table class="table table-dark">
@@ -52,33 +54,11 @@
                             <th scope="col">Product Name</th>
                             <th scope="col">Quantity</th>
                             <th scope="col">Done</th>
+                            <th scope="col">Delete</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-
-                            <td>Apple</td>
-                            <td>3</td>
-                            <td>
-                                <input type="checkbox" />
-                            </td>
-                        </tr>
-                        <tr>
-
-                            <td>Orange</td>
-                            <td>6</td>
-                            <td>
-                                <input type="checkbox" />
-                            </td>
-                        </tr>
-                        <tr>
-
-                            <td>Pineapple</td>
-                            <td>3</td>
-                            <td>
-                                <input type="checkbox" />
-                            </td>
-                        </tr>
+                        
                     </tbody>
                 </table>
             </div>
