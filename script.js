@@ -18,8 +18,8 @@ function addRow(productName, productQuantity){
     var row = `
     <tr>
         <td>${productName}</td>
-        <td><input type=\"number\" class="form-control"></td>
-        <td><input type=\"checkbox\"></td>
+        <td><input type="number" id="qty" class="form-control"></td>
+        <td><input type="checkbox"></td>
         <td><i class="fas fa-times"></i></td>
     </tr>
         `;

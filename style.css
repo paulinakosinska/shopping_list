@@ -23,5 +23,11 @@ body {
   table
   {
       text-align: center; 
+      vertical-align: middle;
   }
 
+#qty{
+    width: 100px;
+    height: 30px; 
+    
+}
