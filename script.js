@@ -2,6 +2,7 @@ $(document).ready(function () {
     $(".btn").on("click", function () {
         var product = $("#productName").val();
         addRow(product, 1);
+        $("#productName").val("");
     });
     $('#productName').keypress(function (e) {
         var key = e.which;
