@@ -31,10 +31,12 @@ main{
   {
       text-align: center; 
       vertical-align: middle;
-  }
-
-#qty{
-    width: 100px;
-    height: 30px; 
+    }
     
+    #qty{
+        width: 100px;
+        height: 30px; 
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
 }
