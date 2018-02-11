@@ -27,7 +27,7 @@ function addRow(productName, productQuantity) {
 
     var row = `
     <tr>
-        <td>${productName}</td>
+        <td class="product-name">${productName}</td>
         <td><input type="number" id="qty" class="form-control"></td>
         <td><input type="checkbox"></td>
         <td class="remove"><i class="fas fa-times"></i></td>
@@ -36,4 +36,17 @@ function addRow(productName, productQuantity) {
 
     $('.table tr:last').after(row);
 
+}
+
+function searchFunction() {
+    let filter = $("#search-input").val().toUpperCase();
+    let products = $(".product-name");
+    products.each(function(){
+        let product = $(this);
+        if (product.text().toUpperCase().indexOf(filter) > -1) {
+            product.parent().css("display", "");
+        } else {
+            product.parent().css("display", "none");
+        }
+    }); 
 }
