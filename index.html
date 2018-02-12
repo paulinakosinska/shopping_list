@@ -32,7 +32,8 @@
                     </li>
                 </ul>
                 <form class="form-inline mt-2 mt-md-0">
-                    <input id="search-input" class="form-control mr-sm-2" type="text" onkeyup="searchFunction()" placeholder="Search for a product" aria-label="Search">
+                    <input id="search-input" class="form-control mr-sm-2" type="text" onkeyup="searchFunction()" placeholder="Search for a product"
+                        aria-label="Search">
                     <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
@@ -47,20 +48,21 @@
                         <button id="addBtn" class="btn btn-warning" type="button">Add</button>
                     </span>
                 </div>
-                <table id="list" class="table table-dark">
-                    <thead>
-                        <tr> 
-
-                            <th scope="col">Product Name</th>
-                            <th scope="col">Quantity</th>
-                            <th scope="col">Done</th>
-                            <th scope="col">Delete</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                       <!-- table data inserted by jquery -->
-                    </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table id="list" class="table table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">Product</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Done</th>
+                                <th scope="col">Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- table data inserted by jquery -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
         </div>
